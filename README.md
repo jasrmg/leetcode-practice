@@ -15,7 +15,7 @@ This repository contains my solutions to various LeetCode problems. The goal is 
 ---
 
 ## 📂 Folder Structure
-leetcode-practice/
+leetcode-practice/  
 ├── easy/  
 │ └── 0001-two-sum.py  
 │ └── 0121-best-time-to-buy-and-sell-stock.py  
@@ -56,6 +56,7 @@ Each solution includes:
 ---
 
 Feel free to star or fork if you find this structure helpful! 🌟
+
 
 
 
