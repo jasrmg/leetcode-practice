@@ -6,15 +6,16 @@ This repository contains my solutions to various LeetCode problems. The goal is 
 
 ## ✅ Solved Problems
 
-| # | Title | Difficulty | Topic(s) | Solution | Language |
-|---|-------|------------|----------|----------|----------|
-| 1 | (Sample Template) [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | Array, Hash Map | [two-sum.py](./easy/0001-two-sum.py) | Python |
+| #    | Title                                                                                                                           | Difficulty | Topic(s)               | Solution                                                                                                                         | Language |
+| ---- | ------------------------------------------------------------------------------------------------------------------------------- | ---------- | ---------------------- | -------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| 2106 | [Maximum Fruits Harvested After at Most K Steps](https://leetcode.com/problems/maximum-fruits-harvested-after-at-most-k-steps/) | Medium     | Greedy, Sliding Window | [`medium/2106-maximum-fruits-harvested-after-at-most-k-steps.py`](medium/2106-maximum-fruits-harvested-after-at-most-k-steps.py) | Python   |
 
-> 📌 *Add more rows as you solve problems. You can group files by difficulty or topic.*
+> 📌 _Add more rows as you solve problems. You can group files by difficulty or topic._
 
 ---
 
 ## 📂 Folder Structure
+
 leetcode-practice/  
 ├── easy/  
 │ └── 0001-two-sum.py  
@@ -23,14 +24,14 @@ leetcode-practice/
 │ └── 0053-maximum-subarray.py  
 ├── hard/  
 │ └── ...  
-├── README.md  
-
+├── README.md
 
 ---
 
 ## 🧠 Problem Notes
 
 Each solution includes:
+
 - Problem link and description
 - Time and space complexity
 - Edge cases handled
@@ -51,13 +52,8 @@ Each solution includes:
 
 - Language: Python (for now)
 - Platform: [LeetCode](https://leetcode.com/)
-- Editor: VSCode 
+- Editor: VSCode
 
 ---
 
 Feel free to star or fork if you find this structure helpful! 🌟
-
-
-
-
-
