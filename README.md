@@ -6,9 +6,10 @@ This repository contains my solutions to various LeetCode problems. The goal is 
 
 ## ✅ Solved Problems
 
-| #    | Title                                                                                                                           | Difficulty | Topic(s)               | Solution                                                                                                                         | Language |
-| ---- | ------------------------------------------------------------------------------------------------------------------------------- | ---------- | ---------------------- | -------------------------------------------------------------------------------------------------------------------------------- | -------- |
-| 2106 | [Maximum Fruits Harvested After at Most K Steps](https://leetcode.com/problems/maximum-fruits-harvested-after-at-most-k-steps/) | Medium     | Greedy, Sliding Window | [`medium/2106-maximum-fruits-harvested-after-at-most-k-steps.py`](medium/2106-maximum-fruits-harvested-after-at-most-k-steps.py) | Python   |
+| #    | Title                                                                                                                           | Difficulty | Topic(s)                     | Solution                                                                                                                         | Language |
+| ---- | ------------------------------------------------------------------------------------------------------------------------------- | ---------- | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| 2106 | [Maximum Fruits Harvested After at Most K Steps](https://leetcode.com/problems/maximum-fruits-harvested-after-at-most-k-steps/) | Medium     | Greedy, Sliding Window       | [`medium/2106-maximum-fruits-harvested-after-at-most-k-steps.py`](medium/2106-maximum-fruits-harvested-after-at-most-k-steps.py) | Python   |
+| 904  | [Fruit Into Basket ](https://leetcode.com/problems/fruit-into-basket/)                                                          | Medium     | Sliding Window, Two Pointers | [`medium/904-fruit-into-basket.py`](medium/904-fruit-into-basket.py)                                                             | Python   |
 
 > 📌 _Add more rows as you solve problems. You can group files by difficulty or topic._
 
