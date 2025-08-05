@@ -33,7 +33,7 @@ Explanation: Pick from index 1 to index 3 (fruits = [1,2,2]).
 
 
 # solution starts here:
-# time complexity ()
+# time complexity: 0(n), space complexity: 0(1)
 class Solution:
   def totalFruits(self, fruits: list[int]) -> int: # type hint
     from collections import defaultdict # used to store the fruit counts efficiently
