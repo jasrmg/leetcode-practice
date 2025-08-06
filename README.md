@@ -10,9 +10,7 @@ This repository contains my solutions to various LeetCode problems. The goal is 
 | ---- | ------------------------------------------------------------------------------------------------------------------------------- | ---------- | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | -------- |
 | 2106 | [Maximum Fruits Harvested After at Most K Steps](https://leetcode.com/problems/maximum-fruits-harvested-after-at-most-k-steps/) | Medium     | Greedy, Sliding Window       | [`medium/2106-maximum-fruits-harvested-after-at-most-k-steps.py`](medium/2106-maximum-fruits-harvested-after-at-most-k-steps.py) | Python   |
 | 904  | [Fruit Into Baskets ](https://leetcode.com/problems/fruit-into-baskets/)                                                        | Medium     | Sliding Window, Two Pointers | [`medium/904-fruit-into-basket.py`](medium/904-fruit-into-basket.py)                                                             | Python   |
-| 3477 | [Fruit Into Baskets II ](https://leetcode.com/problems/fruits-into-baskets-ii/)                                                 | Easy       | Greedy Allocation            | [`easy/3477-fruit-into-baskets-ii.py`](medium/904-fruit-into-basket.py)                                                          | Python   |
-
-> 📌 _Add more rows as you solve problems. You can group files by difficulty or topic._
+| 3477 | [Fruit Into Baskets II ](https://leetcode.com/problems/fruits-into-baskets-ii/)                                                 | Easy       | Greedy Allocation            | [`easy/3477-fruit-into-baskets-ii.py`](easy/3477-fruit-into-baskets-ii.py)                                                       | Python   |
 
 ---
 
