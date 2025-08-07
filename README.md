@@ -6,12 +6,14 @@ This repository contains my solutions to various LeetCode problems. The goal is 
 
 ## ✅ Solved Problems
 
-| #    | Title                                                                                                                           | Difficulty | Topic(s)                     | Solution                                                                                                                         | Language |
-| ---- | ------------------------------------------------------------------------------------------------------------------------------- | ---------- | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | -------- |
-| 2106 | [Maximum Fruits Harvested After at Most K Steps](https://leetcode.com/problems/maximum-fruits-harvested-after-at-most-k-steps/) | Medium     | Greedy, Sliding Window       | [`medium/2106-maximum-fruits-harvested-after-at-most-k-steps.py`](medium/2106-maximum-fruits-harvested-after-at-most-k-steps.py) | Python   |
-| 904  | [Fruit Into Baskets ](https://leetcode.com/problems/fruit-into-baskets/)                                                        | Medium     | Sliding Window, Two Pointers | [`medium/904-fruit-into-basket.py`](medium/904-fruit-into-basket.py)                                                             | Python   |
-| 3477 | [Fruit Into Baskets II ](https://leetcode.com/problems/fruits-into-baskets-ii/)                                                 | Easy       | Greedy Allocation            | [`easy/3477-fruit-into-baskets-ii.py`](easy/3477-fruit-into-baskets-ii.py)                                                       | Python   |
-| 3479 | [Fruit Into Baskets II ](https://leetcode.com/problems/fruits-into-baskets-iii/)                                                | Easy       | Greedy Allocation            | [`easy/3479-fruit-into-baskets-iii.py`](medium/3479-fruit-into-baskets-iii.py)                                                   | Python   |
+| #    | Title                                                                                                                                           | Difficulty | Topic(s)                                           | Solution                                                                                                                       | Language |
+| ---- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | -------- |
+| 2106 | [Maximum Fruits Harvested After at Most K Steps](https://leetcode.com/problems/maximum-fruits-harvested-after-at-most-k-steps/)                 | Hard       | Greedy, Sliding Window                             | [`hard/2106-maximum-fruits-harvested-after-at-most-k-steps.py`](medium/2106-maximum-fruits-harvested-after-at-most-k-steps.py) | Python   |
+| 3363 | [Find the Maximum Number of Fruits Collected](https://leetcode.com/problems/find-the-maximum-number-of-fruits-collected/)                       | Easy       | Array, Dynamic Programmming, Matrix                | [`hard/3363-max-fruits-collected.py`](hard/3363-max-fruits-collected.py)                                                       | Python   |
+| 904  | [Fruit Into Baskets ](https://leetcode.com/problems/fruit-into-baskets/)                                                                        | Medium     | Array, Hash Table, Sliding Window                  | [`medium/904-fruit-into-basket.py`](medium/904-fruit-into-basket.py)                                                           | Python   |
+| 3477 | [Fruit Into Baskets II ](https://leetcode.com/problems/fruits-into-baskets-ii/)                                                                 | Easy       | Array, Binary Search, Segment Tree, Simulation, 1+ | [`easy/3477-fruit-into-baskets-ii.py`](easy/3477-fruit-into-baskets-ii.py)                                                     | Python   |
+| 3479 | [Fruit Into Baskets III ](https://leetcode.com/problems/fruits-into-baskets-iii/)                                                               | Medium     | Array, Binary Search, Segment Tree, Ordered Set    | [`medium/3479-fruit-into-baskets-iii.py`](medium/3479-fruit-into-baskets-iii.py)                                               | Python   |
+| 2529 | [Maximum Count of Positive Integer and Negative Integer](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/) | Easy       | Array, Binary Search, Counting                     | [`easy/3479-fruit-into-baskets-iii.py`](easy/2529-maximum-count-of-positive-and-negative.py)                                   | Python   |
 
 ---
 
@@ -19,13 +21,14 @@ This repository contains my solutions to various LeetCode problems. The goal is 
 
 leetcode-practice/  
 ├── easy/  
+│ └── 2529-maximum-count-of-positive-and-negative.py  
 │ └── 3477-fruits-into-baskets.py  
 ├── medium/  
 │ └── 904-fruit-into-basket.py  
-│ └── 2106-maximum-fruits-harvested-at-most-k-steps.py  
 │ └── 3479-fruit-into-basket-iii.py  
 ├── hard/  
-│ └── ...  
+│ └── 2106-maximum-fruits-harvested-at-most-k-steps.py
+│ └── 3363-max-fruits-collected.py
 ├── README.md
 
 ---
