@@ -15,6 +15,7 @@ This repository contains my solutions to various LeetCode problems. The goal is 
 | 808  | [Soup Servings](https://leetcode.com/problems/soup-servings/)                                                                                   | Medium     | Math, Dynamic Programming, Probability and Statistics | [`medium/808-soup-servings.py`](medium/808-soup-servings.py)                                                                   | Python   |
 | 3477 | [Fruit Into Baskets II ](https://leetcode.com/problems/fruits-into-baskets-ii/)                                                                 | Easy       | Array, Binary Search, Segment Tree, Simulation, 1+    | [`easy/3477-fruit-into-baskets-ii.py`](easy/3477-fruit-into-baskets-ii.py)                                                     | Python   |
 | 2529 | [Maximum Count of Positive Integer and Negative Integer](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/) | Easy       | Array, Binary Search, Counting                        | [`easy/3479-fruit-into-baskets-iii.py`](easy/2529-maximum-count-of-positive-and-negative.py)                                   | Python   |
+| 231  | [Power of Two](https://leetcode.com/problems/pwoer-of-two/)                                                                                     | Easy       | Math, Bit Manipulation                                | [`easy/231-power-of-two.py`](easy/231-pwoer-of-two.py)                                                                         | Python   |
 
 ---
 
@@ -22,6 +23,7 @@ This repository contains my solutions to various LeetCode problems. The goal is 
 
 leetcode-practice/  
 ├── easy/  
+│ └── 231-231-power-of-two.py
 │ └── 2529-maximum-count-of-positive-and-negative.py  
 │ └── 3477-fruits-into-baskets.py  
 ├── medium/  
