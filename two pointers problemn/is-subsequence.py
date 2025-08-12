@@ -1,29 +1,34 @@
 """
-You are given an integer array height of length n. There are n vertical lines drawn such that
-the two endpoints of the i-th line are (i, 0) and (i, height[i]).
+Given two strings s and t, return True if s is a subsequence of t, or False otherwise.
 
-Find two lines that, together with the x-axis, form a container that can store the most water.
-
-Return the maximum amount of water a container can store.
-
-Note:
-- The container sides must be vertical (you may not slant the container).
-- The width of the container is the distance between the two chosen lines.
-- The height of the container is determined by the shorter of the two lines.
+A subsequence of a string is a new string formed from the original string by deleting 
+some (can be none) of the characters without disturbing the relative positions of 
+the remaining characters. For example, "ace" is a subsequence of "abcde" while "aec" is not.
 
 Example 1:
-Input: height = [1,8,6,2,5,4,8,3,7]
-Output: 49
-Explanation:
-The maximum area is obtained by choosing height[1] = 8 and height[8] = 7.
-Area = min(8, 7) * (8 - 1) = 7 * 7 = 49.
+Input: s = "abc", t = "ahbgdc"
+Output: True
 
 Example 2:
-Input: height = [1,1]
-Output: 1
+Input: s = "axc", t = "ahbgdc"
+Output: False
 
 Constraints:
-n == height.length
-2 <= n <= 10^5
-0 <= height[i] <= 10^4
+0 <= s.length <= 100
+0 <= t.length <= 10^4
+s and t consist only of lowercase English letters.
 """
+
+def is_subsequence(s, t):
+  i, j = 0, 0
+
+  while i < len(s) and j < len(t):
+    if (s[i] == t[j]):
+      i += 1
+    j += 1
+  
+  return i == len(s)
+
+s = "axc"
+t = "ahbgdc"
+print(is_subsequence(s, t))
