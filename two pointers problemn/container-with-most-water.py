@@ -48,3 +48,29 @@ def max_area(height):
 
 height = [1,8,6,2,5,4,8,3,7]
 print(max_area(height))
+
+
+"""
+OPTIMIZED VERSION: skipping the heights that wont improve the results
+"""
+def max_area_optimized(height):
+  left, right = 0, len(height) - 1
+  max_area = 0
+
+  while left < right:
+    min_height = min(height[left], height[right])
+    width = right - left
+    max_area = max(max_area, width * min_height)
+
+    if height[left] < height[right]:
+      curr = height[left]
+      while left < right and height[left] <= curr:
+        left += 1
+    else:
+      curr = height[right]
+      while left < right and height[right] <= curr:
+        right -= 1  
+  
+  return max_area
+
+print(max_area_optimized(height))
