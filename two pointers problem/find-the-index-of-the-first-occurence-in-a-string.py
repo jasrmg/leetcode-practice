@@ -19,9 +19,9 @@ haystack and needle consist of only lowercase English characters.
 
 def strStr(haystack, needle):
   n, m = len(haystack), len(needle)
-
   if m == 0:
     return 0
+  
   i, j = 0, 0
 
   while i < n:
