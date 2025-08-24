@@ -42,4 +42,4 @@ class Solution():
 nums = [3,2,2,3] 
 val = 3
 re = Solution().remove_element
-print(re(val, nums))
+print(remove_element(val, nums))
